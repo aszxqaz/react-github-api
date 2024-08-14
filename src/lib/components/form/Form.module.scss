@@ -1,0 +1,23 @@
+.button {
+  padding: 8px 22px;
+  font-size: 15px;
+  height: 42px;
+}
+
+.input {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+
+  & > div {
+    & > input {
+      font-size: 0.875rem;
+      padding-inline: 16px;
+      height: 42px;
+
+      &::placeholder {
+        font-style: italic;
+      }
+    }
+  }
+}

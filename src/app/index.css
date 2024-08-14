@@ -1,0 +1,11 @@
+:root {
+  --header-bg-color: #00838f;
+  --footer-bg-color: #4f4f4f;
+  --aside-bg-color: #f2f2f2;
+  --no-content-placeholder-color: #4f4f4f;
+}
+
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+}

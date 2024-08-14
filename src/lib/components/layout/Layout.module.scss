@@ -1,0 +1,28 @@
+.app_page {
+  height: 100dvh;
+
+  & > .header {
+    min-height: 2rem;
+    background-color: var(--header-bg-color);
+  }
+
+  & > .wrapper {
+    flex: 1;
+
+    & > .main {
+      position: relative;
+      flex: 1;
+    }
+
+    & > .aside {
+      background-color: var(--aside-bg-color);
+      flex-basis: 33%;
+      max-width: 500px;
+    }
+  }
+
+  & > .footer {
+    background-color: var(--footer-bg-color);
+    min-height: 2rem;
+  }
+}
